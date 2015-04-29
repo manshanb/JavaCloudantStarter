@@ -1,0 +1,9 @@
+applications:
+- name: JavaCloudantDBApp
+  host: JavaCloudantDBApp
+  path: JavaCloudantDB.war
+  domain: stage1.mybluemix.net
+  instances: 1
+  memory: 512M
+  services:
+      - couchdb-sample
